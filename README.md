@@ -27,7 +27,7 @@ rsync -avzP --delete root@{remoteHost}:{remoteDir} {localDir}
 
 示例：
 ```
-rsync -avzP --delete root@192.168.1.100:/tmp/rtest1 /tmp/
+rsync -avzP --delete root@192.168.1.100:/www/wwwroot/www.026xs.com
 ```
 #### 向备机推数据
 ##### 主机上启动的流程
@@ -38,7 +38,7 @@ rsync -avzP --delete {localDir} root@{remoteHost}:{remoteDir}
 ```
 示例：
 ```
-rsync -avzP --delete /tmp/rtest1 root@192.168.1.101:/tmp/
+rsync -avzP --delete /www/wwwroot/www.026xs.com root@192.168.1.101:/www/wwwroot/www.026xs.com
 ```
 
 ## AWS开root权限代码
