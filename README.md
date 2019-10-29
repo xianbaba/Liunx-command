@@ -43,9 +43,9 @@ rsync -avzP --delete /tmp/rtest1 root@192.168.1.101:/tmp/
 
 # AWS开root权限代码
 
-##创建instance时,点击add launch script,将下列代码复制进去(注意更改root密码).
+#### 创建instance时,点击add launch script,将下列代码复制进去(注意更改root密码).
 
-##对于EC2,GCE等机器也可以使用. 不能添加代码的机器,可以登录进ssh,再执行上面的代码. 也可以开启root登陆
+#### 对于EC2,GCE等机器也可以使用. 不能添加代码的机器,可以登录进ssh,再执行上面的代码. 也可以开启root登陆
 ```
 #!/bin/bash
 echo root:7758521kkk |sudo chpasswd root
