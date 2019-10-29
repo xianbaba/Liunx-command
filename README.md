@@ -38,7 +38,7 @@ rsync -avzP --delete {localDir} root@{remoteHost}:{remoteDir}
 ```
 示例：
 ```
-rsync -avzP --delete /www/wwwroot/www.026xs.com root@192.168.1.101:/www/wwwroot/www.026xs.com
+rsync -avzP --delete /www/wwwroot/www.026xs.com root@192.168.1.101:/www/wwwroot
 ```
 
 ## AWS开root权限代码
