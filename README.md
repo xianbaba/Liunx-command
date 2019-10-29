@@ -1,4 +1,6 @@
-# Liunx-command
+## Liunx-command
+
+## SCP命令
 ```
 scp -P 12345 /data/wwwroot/www.wzfou.com/ root@198.xxx.xxx.xxx:/data/wwwroot/www.wzfou.net/
 ```
@@ -8,8 +10,36 @@ scp -P 12345 /data/wwwroot/www.wzfou.com/ root@198.xxx.xxx.xxx:/data/wwwroot/www
 ```
 如果两个VPS主机在同一个内网，你可以将IP地址改成内网IP，这样传输速度将更快，因此特别适合大型网站搬家和大数据文件迁移服务器使用。
 
+## rsync命令
+# 数据同步方式
+# 从主机拉数据
+备机上启动的流程
+同步命令：
+```
+rsync -avzP --delete root@{remoteHost}:{remoteDir} {localDir}
+```
+参数说明：
 
+-a 参数，相当于-rlptgoD（-r 是递归 -l 是链接文件，意思是拷贝链接文件；-p 表示保持文件原有权限；-t 保持文件原有时间；-g 保持文件原有用户组；-o 保持文件原有属主；-D 相当于块设备文件）；
+-z 传输时压缩；
+-P 传输进度；
+-v 传输时的进度等信息；
 
+示例：
+```
+rsync -avzP --delete root@192.168.1.100:/tmp/rtest1 /tmp/
+```
+# 向备机推数据
+# 主机上启动的流程
+
+同步命令：
+```
+rsync -avzP --delete {localDir} root@{remoteHost}:{remoteDir}
+```
+示例：
+```
+rsync -avzP --delete /tmp/rtest1 root@192.168.1.101:/tmp/
+```
 
 # AWS开root权限代码
 
