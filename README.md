@@ -1,6 +1,6 @@
-## Liunx-command
+# Liunx-command
 
-# SCP命令
+## SCP命令
 ```
 scp -P 12345 /data/wwwroot/www.wzfou.com/ root@198.xxx.xxx.xxx:/data/wwwroot/www.wzfou.net/
 ```
@@ -10,10 +10,10 @@ scp -P 12345 /data/wwwroot/www.wzfou.com/ root@198.xxx.xxx.xxx:/data/wwwroot/www
 ```
 如果两个VPS主机在同一个内网，你可以将IP地址改成内网IP，这样传输速度将更快，因此特别适合大型网站搬家和大数据文件迁移服务器使用。
 
-# rsync命令
-## 数据同步方式
-### 从主机拉数据
-#### 备机上启动的流程
+## rsync命令
+### 数据同步方式
+#### 从主机拉数据
+##### 备机上启动的流程
 同步命令：
 ```
 rsync -avzP --delete root@{remoteHost}:{remoteDir} {localDir}
@@ -29,8 +29,8 @@ rsync -avzP --delete root@{remoteHost}:{remoteDir} {localDir}
 ```
 rsync -avzP --delete root@192.168.1.100:/tmp/rtest1 /tmp/
 ```
-### 向备机推数据
-#### 主机上启动的流程
+#### 向备机推数据
+##### 主机上启动的流程
 
 同步命令：
 ```
@@ -41,11 +41,10 @@ rsync -avzP --delete {localDir} root@{remoteHost}:{remoteDir}
 rsync -avzP --delete /tmp/rtest1 root@192.168.1.101:/tmp/
 ```
 
-# AWS开root权限代码
+## AWS开root权限代码
 
-#### 创建instance时,点击add launch script,将下列代码复制进去(注意更改root密码).
-
-#### 对于EC2,GCE等机器也可以使用. 不能添加代码的机器,可以登录进ssh,再执行上面的代码. 也可以开启root登陆
+##### 创建instance时,点击add launch script,将下列代码复制进去(注意更改root密码).
+##### 对于EC2,GCE等机器也可以使用. 不能添加代码的机器,可以登录进ssh,再执行上面的代码. 也可以开启root登陆
 ```
 #!/bin/bash
 echo root:7758521kkk |sudo chpasswd root
