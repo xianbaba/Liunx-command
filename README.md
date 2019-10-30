@@ -50,6 +50,7 @@ screen -d yourname      -> 远程detach某个session
 screen -d -r yourname   -> 结束当前session并回到yourname这个session
 ```
 
+
 ## AWS开root权限代码
 
 ##### 创建instance时,点击add launch script,将下列代码复制进去(注意更改root密码).
