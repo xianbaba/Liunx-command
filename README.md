@@ -1,4 +1,8 @@
 # Liunx-command
+## SS插件下载
+```
+https://github.com/hq450/fancyss_history_package
+```
 
 ## SCP命令
 ```
