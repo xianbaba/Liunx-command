@@ -1,6 +1,6 @@
 # Liunx-command
 
-##shadowsocks-all.sh
+## shadowsocks-all.sh
 ==================
 - Auto Install Shadowsocks Server (all version) for CentOS/Debian/Ubuntu
 ```
