@@ -66,3 +66,19 @@ sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config
 sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
 sudo reboot
 ```
+
+shadowsocks-all.sh
+==================
+- Auto Install Shadowsocks Server (all version) for CentOS/Debian/Ubuntu
+```
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/xianbaba/shadowsocks_install/master/shadowsocks-all.sh
+chmod +x shadowsocks-all.sh
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+```
+
+# Linux-NetSpeed
+```
+wget -N --no-check-certificate "https://raw.githubusercontent.com/xianbaba/Linux-NetSpeed/master/tcp.sh"
+chmod +x tcp.sh
+./tcp.sh
+```
