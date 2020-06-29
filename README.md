@@ -13,6 +13,18 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/xianbaba/Linux
 chmod +x tcp.sh
 ./tcp.sh
 ```
+
+# serverspeeder锐速一键破解安装版
+
+## 锐速破解版安装方法：
+```
+   wget -N --no-check-certificate https://github.com/xianbaba/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh
+```
+## 锐速破解版卸载方法：
+```
+    chattr -i /serverspeeder/etc/apx* && /serverspeeder/bin/serverSpeeder.sh uninstall -f
+```
+
 ## AWS开root权限代码
 ```
 #!/bin/bash
