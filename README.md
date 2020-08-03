@@ -13,6 +13,11 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/xianbaba/Linux
 chmod +x tcp.sh
 ./tcp.sh
 ```
+# ServerStatus-Hotaru
+```
+wget https://raw.githubusercontent.com/xianbaba/ServerStatus-Hotaru/master/status.sh
+bash status.sh s
+```
 
 # serverspeeder锐速一键破解安装版
 
