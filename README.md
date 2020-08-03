@@ -16,7 +16,14 @@ chmod +x tcp.sh
 # ServerStatus-Hotaru
 ```
 wget https://raw.githubusercontent.com/xianbaba/ServerStatus-Hotaru/master/status.sh
+```
+## 服务端：
+```
 bash status.sh s
+```
+## 客户端
+```
+bash status.sh c
 ```
 
 # serverspeeder锐速一键破解安装版
