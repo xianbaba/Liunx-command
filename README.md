@@ -1,4 +1,4 @@
-# Liunx-command
+# Liunx命令
 
 ## shadowsocks-all.sh
 - 自动安装CentOS / Debian / Ubuntu的Shadowsocks服务器（所有版本）
