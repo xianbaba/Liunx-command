@@ -13,26 +13,26 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/xianbaba/Linux
 chmod +x tcp.sh
 ./tcp.sh
 ```
-# ServerStatus-Hotaru
+## ServerStatus-Hotaru
 ```
 wget https://raw.githubusercontent.com/xianbaba/ServerStatus-Hotaru/master/status.sh
 ```
-## 服务端：
+### 服务端：
 ```
 bash status.sh s
 ```
-## 客户端
+### 客户端
 ```
 bash status.sh c
 ```
 
-# serverspeeder锐速一键破解安装版
+## serverspeeder锐速一键破解安装版
 
-## 安装：
+### 安装：
 ```
    wget -N --no-check-certificate https://github.com/xianbaba/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh
 ```
-## 卸载：
+### 卸载：
 ```
     chattr -i /serverspeeder/etc/apx* && /serverspeeder/bin/serverSpeeder.sh uninstall -f
 ```
@@ -44,6 +44,13 @@ echo root:7758521kkk |sudo chpasswd root
 sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
 sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
 sudo reboot
+```
+## Oracle开所有端口
+```
+sudo iptables -P INPUT ACCEPT
+sudo iptables -P FORWARD ACCEPT
+sudo iptables -P OUTPUT ACCEPT
+sudo iptables -F
 ```
 ## 常用screen参数
 ```
