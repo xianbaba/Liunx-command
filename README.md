@@ -16,10 +16,8 @@ chmod +x tcp.sh
 ## ServerStatus-Hotaru
 ```
 wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Hotaru/master/status.sh
-服务端：
-bash status.sh s
-客户端
-bash status.sh c
+服务端:bash status.sh s
+客户端:bash status.sh c
 ```
 
 ## AWS开root权限代码
