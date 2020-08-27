@@ -16,13 +16,9 @@ chmod +x tcp.sh
 ## ServerStatus-Hotaru
 ```
 wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Hotaru/master/status.sh
-```
-### 服务端：
-```
+服务端：
 bash status.sh s
-```
-### 客户端
-```
+客户端
 bash status.sh c
 ```
 
