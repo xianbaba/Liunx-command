@@ -15,7 +15,7 @@ chmod +x tcp.sh
 ```
 ## ServerStatus-Hotaru
 ```
-wget https://raw.githubusercontent.com/xianbaba/ServerStatus-Hotaru/master/status.sh
+wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Hotaru/master/status.sh
 ```
 ### 服务端：
 ```
@@ -24,17 +24,6 @@ bash status.sh s
 ### 客户端
 ```
 bash status.sh c
-```
-
-## serverspeeder锐速一键破解安装版
-
-### 安装：
-```
-   wget -N --no-check-certificate https://github.com/xianbaba/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh
-```
-### 卸载：
-```
-    chattr -i /serverspeeder/etc/apx* && /serverspeeder/bin/serverSpeeder.sh uninstall -f
 ```
 
 ## AWS开root权限代码
