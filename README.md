@@ -45,5 +45,5 @@ screen -d -r yourname   -> 结束当前session并回到yourname这个session
 ```
 ## 编译Openwrt
 
-[我的博客](https://github.com/coolsnowwolf/lede "悬停显示")
+[编译自己需要的 OpenWrt 固件](https://github.com/coolsnowwolf/lede "悬停显示")
 
