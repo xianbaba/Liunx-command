@@ -43,3 +43,7 @@ screen -r yourname      -> 回到yourname这个session
 screen -d yourname      -> 远程detach某个session
 screen -d -r yourname   -> 结束当前session并回到yourname这个session
 ```
+## 编译Openwrt
+```
+[编译Openwrt](https://github.com/coolsnowwolf/lede "悬停显示")
+```
