@@ -19,7 +19,10 @@ wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Hotaru/master/statu
 服务端:bash status.sh s
 客户端:bash status.sh c
 ```
-
+## 一键MTProto
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/iiiiiii1/doubi/master/mtproxy_go.sh && bash mtproxy_go.sh
+```
 ## AWS开root权限代码
 ```
 #!/bin/bash
