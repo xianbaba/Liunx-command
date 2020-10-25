@@ -23,7 +23,7 @@ wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Hotaru/master/statu
 ```
 wget -N --no-check-certificate https://raw.githubusercontent.com/iiiiiii1/doubi/master/mtproxy_go.sh && bash mtproxy_go.sh
 ```
-## AWS开root权限代码
+## 开root权限代码
 ```
 #!/bin/bash
 echo root:7758521kkk |sudo chpasswd root
