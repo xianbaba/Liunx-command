@@ -3,9 +3,9 @@
 ## shadowsocks-all.sh
 - 自动安装CentOS / Debian / Ubuntu的Shadowsocks服务器（所有版本）
 ```
-wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
-chmod +x shadowsocks-all.sh
-./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ss-go.sh
+chmod +x ss-go.sh
+bash ss-go.sh
 ```
 ## Linux-NetSpeed
 ```
